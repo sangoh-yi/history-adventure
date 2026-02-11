@@ -1,0 +1,582 @@
+[
+    {
+        "lectureId": 1,
+        "title": "선사시대 송",
+        "bpm": 100,
+        "duration": 60,
+        "notes": [
+            {
+                "time": 2.0,
+                "lane": 1,
+                "keyword": "빗살무늬"
+            },
+            {
+                "time": 4.0,
+                "lane": 2,
+                "keyword": "토기"
+            },
+            {
+                "time": 6.0,
+                "lane": 3,
+                "keyword": "고인돌"
+            },
+            {
+                "time": 8.0,
+                "lane": 4,
+                "keyword": "고-조-선"
+            },
+            {
+                "time": 10.0,
+                "lane": 1,
+                "keyword": "단군왕검"
+            }
+        ]
+    },
+    {
+        "lectureId": 2,
+        "title": "광개토 비트",
+        "bpm": 120,
+        "duration": 60,
+        "notes": [
+            {
+                "time": 2.5,
+                "lane": 1,
+                "keyword": "고구려"
+            },
+            {
+                "time": 3.0,
+                "lane": 1,
+                "keyword": "철기"
+            },
+            {
+                "time": 5.0,
+                "lane": 2,
+                "keyword": "주몽"
+            },
+            {
+                "time": 7.5,
+                "lane": 3,
+                "keyword": "광개토"
+            },
+            {
+                "time": 8.0,
+                "lane": 3,
+                "keyword": "대왕"
+            }
+        ]
+    },
+    {
+        "lectureId": 3,
+        "title": "백제 예술 댄스",
+        "bpm": 90,
+        "duration": 60,
+        "notes": [
+            {
+                "time": 3.0,
+                "lane": 2,
+                "keyword": "온조왕"
+            },
+            {
+                "time": 5.0,
+                "lane": 3,
+                "keyword": "금동"
+            },
+            {
+                "time": 5.5,
+                "lane": 4,
+                "keyword": "대향로"
+            },
+            {
+                "time": 8.0,
+                "lane": 1,
+                "keyword": "무령왕릉"
+            }
+        ]
+    },
+    {
+        "lectureId": 4,
+        "title": "화랑의 기상",
+        "bpm": 110,
+        "duration": 60,
+        "notes": [
+            {
+                "time": 2.0,
+                "lane": 4,
+                "keyword": "박혁거세"
+            },
+            {
+                "time": 4.0,
+                "lane": 3,
+                "keyword": "화랑도"
+            },
+            {
+                "time": 6.0,
+                "lane": 2,
+                "keyword": "첨성대"
+            },
+            {
+                "time": 8.0,
+                "lane": 1,
+                "keyword": "선덕여왕"
+            }
+        ]
+    },
+    {
+        "lectureId": 5,
+        "title": "통일과 발해",
+        "bpm": 95,
+        "duration": 60,
+        "notes": [
+            {
+                "time": 2.0,
+                "lane": 1,
+                "keyword": "문무왕"
+            },
+            {
+                "time": 4.0,
+                "lane": 2,
+                "keyword": "불국사"
+            },
+            {
+                "time": 6.0,
+                "lane": 3,
+                "keyword": "석굴암"
+            },
+            {
+                "time": 8.0,
+                "lane": 4,
+                "keyword": "대조영"
+            }
+        ]
+    },
+    {
+        "lectureId": 6,
+        "title": "청자 비트",
+        "bpm": 105,
+        "duration": 60,
+        "notes": [
+            {
+                "time": 2.0,
+                "lane": 2,
+                "keyword": "왕건"
+            },
+            {
+                "time": 4.0,
+                "lane": 4,
+                "keyword": "고려청자"
+            },
+            {
+                "time": 6.0,
+                "lane": 1,
+                "keyword": "팔만"
+            },
+            {
+                "time": 6.5,
+                "lane": 3,
+                "keyword": "대장경"
+            }
+        ]
+    },
+    {
+        "lectureId": 7,
+        "title": "항쟁의 북소리",
+        "bpm": 130,
+        "duration": 60,
+        "notes": [
+            {
+                "time": 1.5,
+                "lane": 1,
+                "keyword": "몽골"
+            },
+            {
+                "time": 3.0,
+                "lane": 2,
+                "keyword": "삼별초"
+            },
+            {
+                "time": 5.0,
+                "lane": 3,
+                "keyword": "공민왕"
+            },
+            {
+                "time": 7.0,
+                "lane": 4,
+                "keyword": "최영"
+            }
+        ]
+    },
+    {
+        "lectureId": 8,
+        "title": "조선 건국 랩",
+        "bpm": 100,
+        "duration": 60,
+        "notes": [
+            {
+                "time": 2.0,
+                "lane": 1,
+                "keyword": "이성계"
+            },
+            {
+                "time": 4.0,
+                "lane": 3,
+                "keyword": "한양"
+            },
+            {
+                "time": 6.0,
+                "lane": 2,
+                "keyword": "경복궁"
+            },
+            {
+                "time": 8.0,
+                "lane": 4,
+                "keyword": "유교"
+            }
+        ]
+    },
+    {
+        "lectureId": 9,
+        "title": "한글 창제 송",
+        "bpm": 80,
+        "duration": 60,
+        "notes": [
+            {
+                "time": 2.0,
+                "lane": 2,
+                "keyword": "세종대왕"
+            },
+            {
+                "time": 4.0,
+                "lane": 4,
+                "keyword": "훈민정음"
+            },
+            {
+                "time": 6.0,
+                "lane": 1,
+                "keyword": "장영실"
+            },
+            {
+                "time": 8.0,
+                "lane": 3,
+                "keyword": "측우기"
+            }
+        ]
+    },
+    {
+        "lectureId": 10,
+        "title": "거북선 비트",
+        "bpm": 140,
+        "duration": 60,
+        "notes": [
+            {
+                "time": 2.0,
+                "lane": 1,
+                "keyword": "임진왜란"
+            },
+            {
+                "time": 3.5,
+                "lane": 2,
+                "keyword": "이순신"
+            },
+            {
+                "time": 5.0,
+                "lane": 3,
+                "keyword": "거북선"
+            },
+            {
+                "time": 6.5,
+                "lane": 4,
+                "keyword": "명량대첩"
+            }
+        ]
+    },
+    {
+        "lectureId": 11,
+        "title": "판소리 가락",
+        "bpm": 90,
+        "duration": 60,
+        "notes": [
+            {
+                "time": 3.0,
+                "lane": 1,
+                "keyword": "김홍도"
+            },
+            {
+                "time": 5.0,
+                "lane": 2,
+                "keyword": "신윤복"
+            },
+            {
+                "time": 7.0,
+                "lane": 3,
+                "keyword": "판소리"
+            },
+            {
+                "time": 9.0,
+                "lane": 4,
+                "keyword": "탈춤"
+            }
+        ]
+    },
+    {
+        "lectureId": 12,
+        "title": "개화기 락",
+        "bpm": 115,
+        "duration": 60,
+        "notes": [
+            {
+                "time": 2.0,
+                "lane": 4,
+                "keyword": "대원군"
+            },
+            {
+                "time": 4.0,
+                "lane": 2,
+                "keyword": "갑신정변"
+            },
+            {
+                "time": 6.0,
+                "lane": 3,
+                "keyword": "전봉준"
+            },
+            {
+                "time": 8.0,
+                "lane": 1,
+                "keyword": "개항"
+            }
+        ]
+    },
+    {
+        "lectureId": 13,
+        "title": "독립 만세 힙합",
+        "bpm": 125,
+        "duration": 60,
+        "notes": [
+            {
+                "time": 2.0,
+                "lane": 3,
+                "keyword": "대한독립"
+            },
+            {
+                "time": 3.0,
+                "lane": 3,
+                "keyword": "만세"
+            },
+            {
+                "time": 5.0,
+                "lane": 1,
+                "keyword": "유관순"
+            },
+            {
+                "time": 7.0,
+                "lane": 4,
+                "keyword": "김구"
+            }
+        ]
+    },
+    {
+        "lectureId": 14,
+        "title": "광복과 전쟁",
+        "bpm": 100,
+        "duration": 60,
+        "notes": [
+            {
+                "time": 2.0,
+                "lane": 2,
+                "keyword": "8.15"
+            },
+            {
+                "time": 3.0,
+                "lane": 2,
+                "keyword": "광복"
+            },
+            {
+                "time": 5.0,
+                "lane": 4,
+                "keyword": "6.25"
+            },
+            {
+                "time": 7.0,
+                "lane": 1,
+                "keyword": "휴전"
+            }
+        ]
+    },
+    {
+        "lectureId": 15,
+        "title": "한강의 기적 비트",
+        "bpm": 135,
+        "duration": 60,
+        "notes": [
+            {
+                "time": 2.0,
+                "lane": 1,
+                "keyword": "경제성장"
+            },
+            {
+                "time": 4.0,
+                "lane": 2,
+                "keyword": "수출"
+            },
+            {
+                "time": 6.0,
+                "lane": 3,
+                "keyword": "올림픽"
+            },
+            {
+                "time": 8.0,
+                "lane": 4,
+                "keyword": "대한민국"
+            }
+        ]
+    },
+    {
+        "lectureId": 16,
+        "title": "민주주의 행진곡",
+        "bpm": 120,
+        "duration": 60,
+        "notes": [
+            {
+                "time": 2.0,
+                "lane": 4,
+                "keyword": "4.19"
+            },
+            {
+                "time": 4.0,
+                "lane": 3,
+                "keyword": "5.18"
+            },
+            {
+                "time": 6.0,
+                "lane": 2,
+                "keyword": "6월항쟁"
+            },
+            {
+                "time": 8.0,
+                "lane": 1,
+                "keyword": "투표"
+            }
+        ]
+    },
+    {
+        "lectureId": 17,
+        "title": "문화유산 랩",
+        "bpm": 95,
+        "duration": 60,
+        "notes": [
+            {
+                "time": 2.5,
+                "lane": 1,
+                "keyword": "유네스코"
+            },
+            {
+                "time": 4.5,
+                "lane": 2,
+                "keyword": "화성"
+            },
+            {
+                "time": 6.5,
+                "lane": 3,
+                "keyword": "종묘"
+            },
+            {
+                "time": 8.5,
+                "lane": 4,
+                "keyword": "김장"
+            }
+        ]
+    },
+    {
+        "lectureId": 18,
+        "title": "명절 굿거리",
+        "bpm": 85,
+        "duration": 60,
+        "notes": [
+            {
+                "time": 2.0,
+                "lane": 1,
+                "keyword": "설날"
+            },
+            {
+                "time": 3.0,
+                "lane": 1,
+                "keyword": "떡국"
+            },
+            {
+                "time": 5.0,
+                "lane": 4,
+                "keyword": "추석"
+            },
+            {
+                "time": 6.0,
+                "lane": 4,
+                "keyword": "송편"
+            }
+        ]
+    },
+    {
+        "lectureId": 19,
+        "title": "K-Pop 댄스",
+        "bpm": 130,
+        "duration": 60,
+        "notes": [
+            {
+                "time": 1.5,
+                "lane": 2,
+                "keyword": "한류"
+            },
+            {
+                "time": 3.0,
+                "lane": 3,
+                "keyword": "K-Pop"
+            },
+            {
+                "time": 5.0,
+                "lane": 4,
+                "keyword": "반도체"
+            },
+            {
+                "time": 7.0,
+                "lane": 1,
+                "keyword": "세계로"
+            }
+        ]
+    },
+    {
+        "lectureId": 20,
+        "title": "마스터 피날레",
+        "bpm": 150,
+        "duration": 90,
+        "notes": [
+            {
+                "time": 2.0,
+                "lane": 1,
+                "keyword": "역사"
+            },
+            {
+                "time": 3.0,
+                "lane": 2,
+                "keyword": "마스터"
+            },
+            {
+                "time": 5.0,
+                "lane": 3,
+                "keyword": "도전"
+            },
+            {
+                "time": 6.0,
+                "lane": 4,
+                "keyword": "성공"
+            },
+            {
+                "time": 8.0,
+                "lane": 1,
+                "keyword": "최고"
+            },
+            {
+                "time": 9.0,
+                "lane": 4,
+                "keyword": "별별"
+            }
+        ]
+    }
+]

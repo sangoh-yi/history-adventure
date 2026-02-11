@@ -1,0 +1,682 @@
+[
+    {
+        "lectureId": 1,
+        "title": "역사의 시작: 고조선",
+        "panels": [
+            {
+                "order": 1,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_explain.png",
+                "description": "고조선 건국 이야기",
+                "dialogue": "젠이츠! 우리나라 최초의 국가, 고조선 이야기를 들어볼래? 아주 중요한 호흡... 아니, 역사야!"
+            },
+            {
+                "order": 2,
+                "character": "zenitsu",
+                "imageUrl": "/images/zenitsu_scared.png",
+                "description": "곰과 호랑이 이야기",
+                "dialogue": "으아악! 곰이랑 호랑이가 마늘만 먹고 100일을 버텼다고? 난 절대 못 해! 죽을 거야!"
+            },
+            {
+                "order": 3,
+                "character": "inosuke",
+                "imageUrl": "/images/inosuke_wild.png",
+                "description": "단군왕검 등장",
+                "dialogue": "저돌맹진!! 그래서 곰이 사람이 돼서 단군왕검을 낳았다는 거냐? 강해 보이는데!"
+            },
+            {
+                "order": 4,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_smile.png",
+                "description": "홍익인간 정신",
+                "dialogue": "맞아. 널리 인간을 이롭게 한다는 '홍익인간' 정신! 우리가 지켜야 할 마음이지."
+            }
+        ]
+    },
+    {
+        "lectureId": 2,
+        "title": "삼국의 경쟁: 고구려",
+        "panels": [
+            {
+                "order": 1,
+                "character": "inosuke",
+                "imageUrl": "/images/inosuke_attack.png",
+                "description": "주몽의 활 솜씨",
+                "dialogue": "주몽이란 녀석, 활을 그렇게 잘 쏜다며? 나와 승부다!!"
+            },
+            {
+                "order": 2,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_explain.png",
+                "description": "고구려의 기상",
+                "dialogue": "주몽은 고구려를 세웠어. 그리고 광개토대왕님은 만주 벌판까지 영토를 넓히셨지."
+            },
+            {
+                "order": 3,
+                "character": "zenitsu",
+                "imageUrl": "/images/zenitsu_cry.png",
+                "description": "살수대첩",
+                "dialogue": "히익! 수나라 군대가 100만 명이나 쳐들어왔다니... 생각만 해도 기절할 것 같아..."
+            },
+            {
+                "order": 4,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_determined.png",
+                "description": "을지문덕의 승리",
+                "dialogue": "하지만 을지문덕 장군님이 물을 이용해 다 물리치셨어! 포기하지 않는 마음이 중요해!"
+            }
+        ]
+    },
+    {
+        "lectureId": 3,
+        "title": "백제: 아름다운 문화",
+        "panels": [
+            {
+                "order": 1,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_smile.png",
+                "description": "백제의 문화",
+                "dialogue": "백제의 문화는 정말 섬세하고 우아해. 이 금동대향로 냄새... 아니 모양을 봐!"
+            },
+            {
+                "order": 2,
+                "character": "zenitsu",
+                "imageUrl": "/images/zenitsu_love.png",
+                "description": "백제의 교류",
+                "dialogue": "우와~ 반짝반짝 예쁘다! 네즈코 짱에게 선물하면 좋아할까?"
+            },
+            {
+                "order": 3,
+                "character": "inosuke",
+                "imageUrl": "/images/inosuke_confused.png",
+                "description": "해상 강국 백제",
+                "dialogue": "배를 타고 바다를 건너? 일본까지 갔다고? 나도 배 타고 모험하고 싶다!!"
+            },
+            {
+                "order": 4,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_explain.png",
+                "description": "문화 전파",
+                "dialogue": "백제는 일본에 한자, 유교, 불교 같은 선진 문화를 많이 전해줬단다."
+            }
+        ]
+    },
+    {
+        "lectureId": 4,
+        "title": "신라: 삼국 통일의 꿈",
+        "panels": [
+            {
+                "order": 1,
+                "character": "zenitsu",
+                "imageUrl": "/images/zenitsu_scared.png",
+                "description": "화랑도의 훈련",
+                "dialogue": "화랑도? 산속에서 훈련하고... 무술 연습하고... 으아, 난 힘들어서 못 해!"
+            },
+            {
+                "order": 2,
+                "character": "inosuke",
+                "imageUrl": "/images/inosuke_proud.png",
+                "description": "용맹한 화랑",
+                "dialogue": "흥! 내가 들어갔으면 대장이었을 거다! 저돌맹진 화랑!"
+            },
+            {
+                "order": 3,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_explain.png",
+                "description": "첨성대와 선덕여왕",
+                "dialogue": "선덕여왕님은 백성을 위해 첨성대를 지으셨어. 지혜로운 분이셨지."
+            },
+            {
+                "order": 4,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_determined.png",
+                "description": "김유신과 통일",
+                "dialogue": "그리고 김유신 장군과 함께 삼국 통일의 꿈을 키워나갔어."
+            }
+        ]
+    },
+    {
+        "lectureId": 5,
+        "title": "통일신라와 발해",
+        "panels": [
+            {
+                "order": 1,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_happy.png",
+                "description": "삼국 통일 완성",
+                "dialogue": "드디어 전쟁이 끝나고 평화가 찾아왔어. 불국사와 석굴암도 이때 만들어졌지."
+            },
+            {
+                "order": 2,
+                "character": "zenitsu",
+                "imageUrl": "/images/zenitsu_cry.png",
+                "description": "북쪽의 발해",
+                "dialogue": "근데 북쪽은 너무 춥지 않을까? 발해라는 나라는 추운 곳에 있었다며?"
+            },
+            {
+                "order": 3,
+                "character": "inosuke",
+                "imageUrl": "/images/inosuke_wild.png",
+                "description": "해동성국 발해",
+                "dialogue": "춥다고 겁먹지 마라! 발해는 '해동성국'이라 불릴 만큼 강력했다고!!"
+            },
+            {
+                "order": 4,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_explain.png",
+                "description": "남북국 시대",
+                "dialogue": "남쪽엔 신라, 북쪽엔 발해. 우리 조상님들이 한반도와 만주를 지키던 시대야."
+            }
+        ]
+    },
+    {
+        "lectureId": 6,
+        "title": "고려: 불교의 나라",
+        "panels": [
+            {
+                "order": 1,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_bow.png",
+                "description": "왕건의 포용 정책",
+                "dialogue": "태조 왕건님은 적들도 포용하는 넓은 마음을 가지셨어. 장남의 냄새가 나!"
+            },
+            {
+                "order": 2,
+                "character": "zenitsu",
+                "imageUrl": "/images/zenitsu_love.png",
+                "description": "고려 청자",
+                "dialogue": "이 청자 색깔 좀 봐! 비취색이라니... 너무 영롱해! 갖고 싶다!"
+            },
+            {
+                "order": 3,
+                "character": "inosuke",
+                "imageUrl": "/images/inosuke_confused.png",
+                "description": "팔만대장경",
+                "dialogue": "나무판에 글자를 8만 개나 새겼다고? 팔이 빠지겠는데? 대단한 끈기다!"
+            },
+            {
+                "order": 4,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_pray.png",
+                "description": "부처의 힘으로",
+                "dialogue": "나라를 지키려는 간절한 마음 하나하나가 모여 팔만대장경이 된 거야."
+            }
+        ]
+    },
+    {
+        "lectureId": 7,
+        "title": "고려의 시련과 극복",
+        "panels": [
+            {
+                "order": 1,
+                "character": "zenitsu",
+                "imageUrl": "/images/zenitsu_scared.png",
+                "description": "몽골의 침입",
+                "dialogue": "몽골군이 쳐들어왔어! 무서워! 세계 최강이라며? 다 죽을 거야!"
+            },
+            {
+                "order": 2,
+                "character": "inosuke",
+                "imageUrl": "/images/inosuke_angry.png",
+                "description": "삼별초의 항쟁",
+                "dialogue": "웃기지 마! 삼별초가 끝까지 싸웠다! 덤벼라 몽골!!"
+            },
+            {
+                "order": 3,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_determined.png",
+                "description": "공민왕의 개혁",
+                "dialogue": "공민왕님은 노국공주님과 함께 고려의 자주성을 되찾으려 노력하셨어."
+            },
+            {
+                "order": 4,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_sword.png",
+                "description": "신흥 무인 세력",
+                "dialogue": "그리고 최영 장군님, 이성계 장군님이 왜구를 물리치며 영웅으로 떠올랐지."
+            }
+        ]
+    },
+    {
+        "lectureId": 8,
+        "title": "조선의 건국",
+        "panels": [
+            {
+                "order": 1,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_explain.png",
+                "description": "위화도 회군",
+                "dialogue": "이성계 장군님은 백성의 희생을 막기 위해 군대를 돌리셨어. 어려운 결정이었지."
+            },
+            {
+                "order": 2,
+                "character": "zenitsu",
+                "imageUrl": "/images/zenitsu_shock.png",
+                "description": "조선 건국",
+                "dialogue": "그래서 왕이 바뀐 거야? 고려가 망하고 조선이 생긴 거라고?"
+            },
+            {
+                "order": 3,
+                "character": "inosuke",
+                "imageUrl": "/images/inosuke_run.png",
+                "description": "한양 천도",
+                "dialogue": "새 도읍지 한양! 내가 제일 먼저 도착해주마! 저돌맹진!"
+            },
+            {
+                "order": 4,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_smile.png",
+                "description": "유교 사회",
+                "dialogue": "조선은 백성을 바르게 가르치는 유교를 중요하게 생각했단다."
+            }
+        ]
+    },
+    {
+        "lectureId": 9,
+        "title": "세종대왕과 한글",
+        "panels": [
+            {
+                "order": 1,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_respect.png",
+                "description": "세종대왕의 애민정신",
+                "dialogue": "백성들이 글을 몰라 억울한 일을 당하지 않게... 세종대왕님의 마음, 정말 따뜻해."
+            },
+            {
+                "order": 2,
+                "character": "zenitsu",
+                "imageUrl": "/images/zenitsu_study.png",
+                "description": "한글 창제",
+                "dialogue": "'ㄱ'은 혀뿌리가 목구멍을 막는 모양... 우와, 소리 나는 대로 쓸 수 있어!"
+            },
+            {
+                "order": 3,
+                "character": "inosuke",
+                "imageUrl": "/images/inosuke_smart.png",
+                "description": "과학 기술",
+                "dialogue": "뭐야? 물이 차면 자동으로 종을 친다고? 자격루... 제법인데?"
+            },
+            {
+                "order": 4,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_happy.png",
+                "description": "문화 꽃피우다",
+                "dialogue": "한글 덕분에 우리만의 문화를 꽃피울 수 있게 된 거야. 감사해야 해."
+            }
+        ]
+    },
+    {
+        "lectureId": 10,
+        "title": "임진왜란과 이순신",
+        "panels": [
+            {
+                "order": 1,
+                "character": "zenitsu",
+                "imageUrl": "/images/zenitsu_cry.png",
+                "description": "임진왜란 발발",
+                "dialogue": "전쟁이야! 일본군 조총 소리 들었어? 무서워! 도망가자 탄지로!"
+            },
+            {
+                "order": 2,
+                "character": "inosuke",
+                "imageUrl": "/images/inosuke_angry.png",
+                "description": "조선의 위기",
+                "dialogue": "겁쟁이 녀석! 바다에는 이순신이 있잖아! 거북선으로 다 부숴버려!!"
+            },
+            {
+                "order": 3,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_water_breathing.png",
+                "description": "명량대첩",
+                "dialogue": "전집중! 물의 호흡! ...아니, 명량의 바다 흐름을 이용한 전술이야!"
+            },
+            {
+                "order": 4,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_respect.png",
+                "description": "이순신의 최후",
+                "dialogue": "마지막까지 나라를 지키신 장군님... 당신의 헌신을 잊지 않겠습니다."
+            }
+        ]
+    },
+    {
+        "lectureId": 11,
+        "title": "조선 후기의 문화",
+        "panels": [
+            {
+                "order": 1,
+                "character": "inosuke",
+                "imageUrl": "/images/inosuke_eat.png",
+                "description": "모내기법과 풍요",
+                "dialogue": "쌀밥이다! 모내기법 덕분에 밥을 배불리 먹을 수 있다니 최고야!"
+            },
+            {
+                "order": 2,
+                "character": "zenitsu",
+                "imageUrl": "/images/zenitsu_laugh.png",
+                "description": "풍속화 감상",
+                "dialogue": "푸하하! 김홍도의 씨름 그림 좀 봐. 저 사람 표정이 너무 웃겨!"
+            },
+            {
+                "order": 3,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_smile.png",
+                "description": "서민 문화의 발달",
+                "dialogue": "양반들만 즐기던 문화를 서민들도 즐기게 됐어. 판소리, 탈춤..."
+            },
+            {
+                "order": 4,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_explain.png",
+                "description": "한글 소설",
+                "dialogue": "홍길동전 같은 한글 소설도 유행했지. 누구나 이야기를 즐기는 시대가 온 거야."
+            }
+        ]
+    },
+    {
+        "lectureId": 12,
+        "title": "개항과 격동의 시기",
+        "panels": [
+            {
+                "order": 1,
+                "character": "inosuke",
+                "imageUrl": "/images/inosuke_block.png",
+                "description": "흥선대원군 척화비",
+                "dialogue": "문 열지 마! 척화비를 세워라! 서양 오랑캐는 얼씬도 못 하게 해!"
+            },
+            {
+                "order": 2,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_worry.png",
+                "description": "강화도 조약",
+                "dialogue": "하지만 결국 문을 열게 되었어. 불평등한 조약이라 걱정이야..."
+            },
+            {
+                "order": 3,
+                "character": "zenitsu",
+                "imageUrl": "/images/zenitsu_confused.png",
+                "description": "개화의 바람",
+                "dialogue": "전화기? 전등? 신기한 물건들이 막 들어와! 세상이 어떻게 되는 거지?"
+            },
+            {
+                "order": 4,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_determined.png",
+                "description": "동학 농민 운동",
+                "dialogue": "사람이 곧 하늘이다! 평등한 세상을 위한 백성들의 외침이 시작됐어."
+            }
+        ]
+    },
+    {
+        "lectureId": 13,
+        "title": "3.1 운동과 독립운동",
+        "panels": [
+            {
+                "order": 1,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_angry.png",
+                "description": "일제의 탄압",
+                "dialogue": "우리 말을 못 쓰게 하고 이름을 바꾸라니... 절대 용서할 수 없어!"
+            },
+            {
+                "order": 2,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_shout.png",
+                "description": "3.1 운동",
+                "dialogue": "대한 독립 만세!! 우리의 뜻을 전 세계에 알리자!"
+            },
+            {
+                "order": 3,
+                "character": "zenitsu",
+                "imageUrl": "/images/zenitsu_cry.png",
+                "description": "유관순 열사",
+                "dialogue": "유관순 누나는 감옥에서도 만세를 불렀대... 정말 대단해... 흑흑."
+            },
+            {
+                "order": 4,
+                "character": "inosuke",
+                "imageUrl": "/images/inosuke_fight.png",
+                "description": "독립군의 항쟁",
+                "dialogue": "그냥 당하고만 있지 않겠다! 봉오동, 청산리 전투에서 일본군을 박살 내주마!"
+            }
+        ]
+    },
+    {
+        "lectureId": 14,
+        "title": "광복과 6.25 전쟁",
+        "panels": [
+            {
+                "order": 1,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_happy_cry.png",
+                "description": "광복의 기쁨",
+                "dialogue": "해냈다! 드디어 나라를 되찾았어! 이제 우리말로 이야기할 수 있어."
+            },
+            {
+                "order": 2,
+                "character": "zenitsu",
+                "imageUrl": "/images/zenitsu_worry.png",
+                "description": "분단의 아픔",
+                "dialogue": "그런데 왜 허리가 잘린 거야? 남쪽이랑 북쪽이... 나뉘어 버렸어."
+            },
+            {
+                "order": 3,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_sad.png",
+                "description": "6.25 전쟁",
+                "dialogue": "같은 민족끼리 총을 겨누는 전쟁이 일어나다니... 너무 슬픈 일이야."
+            },
+            {
+                "order": 4,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_pray.png",
+                "description": "평화를 위한 기도",
+                "dialogue": "다시는 이런 비극이 없어야 해. 평화 통일을 꼭 이루자."
+            }
+        ]
+    },
+    {
+        "lectureId": 15,
+        "title": "한강의 기적",
+        "panels": [
+            {
+                "order": 1,
+                "character": "inosuke",
+                "imageUrl": "/images/inosuke_work.png",
+                "description": "전후 복구",
+                "dialogue": "다 무너졌으면 다시 세우면 되지! 으라차차! 힘내서 일하자!"
+            },
+            {
+                "order": 2,
+                "character": "zenitsu",
+                "imageUrl": "/images/zenitsu_surprised.png",
+                "description": "경제 성장",
+                "dialogue": "우와! 높은 빌딩이 생기고 고속도로가 뚫렸어! 우리나리가 이렇게 잘살게 됐다니!"
+            },
+            {
+                "order": 3,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_smile.png",
+                "description": "서울 올림픽",
+                "dialogue": "1988년 서울 올림픽! 전 세계 사람들이 한국을 주목했단다."
+            },
+            {
+                "order": 4,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_explain.png",
+                "description": "한강의 기적 의미",
+                "dialogue": "포기하지 않고 노력한 우리 할머니, 할아버지들 덕분이야."
+            }
+        ]
+    },
+    {
+        "lectureId": 16,
+        "title": "민주주의의 발전",
+        "panels": [
+            {
+                "order": 1,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_angry.png",
+                "description": "독재에 대한 저항",
+                "dialogue": "국민의 목소리를 무시하는 독재는 옳지 않아! 민주주의를 돌려달라!"
+            },
+            {
+                "order": 2,
+                "character": "inosuke",
+                "imageUrl": "/images/inosuke_shout.png",
+                "description": "시민들의 힘",
+                "dialogue": "덤벼라! 우리 시민들을 얕보지 마라! 4.19, 5.18, 6월 항쟁!"
+            },
+            {
+                "order": 3,
+                "character": "zenitsu",
+                "imageUrl": "/images/zenitsu_vote.png",
+                "description": "대통령 직선제",
+                "dialogue": "드디어 대통령을 내 손으로 뽑을 수 있게 됐어! 소중한 한 표야."
+            },
+            {
+                "order": 4,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_smile.png",
+                "description": "성숙한 민주주의",
+                "dialogue": "평화로운 촛불 집회까지. 대한민국 민주주의는 세계가 인정하고 있어."
+            }
+        ]
+    },
+    {
+        "lectureId": 17,
+        "title": "세계 속의 우리 문화유산",
+        "panels": [
+            {
+                "order": 1,
+                "character": "zenitsu",
+                "imageUrl": "/images/zenitsu_love.png",
+                "description": "유네스코 유산",
+                "dialogue": "불국사, 석굴암... 너무 아름다워! 세계 사람들도 다 좋아한대!"
+            },
+            {
+                "order": 2,
+                "character": "inosuke",
+                "imageUrl": "/images/inosuke_smart.png",
+                "description": "기록 유산",
+                "dialogue": "왕이 한 말까지 다 적었다고? 조선왕조실록, 꼼꼼함의 끝판왕이네!"
+            },
+            {
+                "order": 3,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_explain.png",
+                "description": "수원 화성",
+                "dialogue": "정조 대왕님의 효심과 과학 기술이 만난 수원 화성도 잊지 마."
+            },
+            {
+                "order": 4,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_happy.png",
+                "description": "자긍심",
+                "dialogue": "우리 문화유산, 정말 자랑스럽지? 잘 지켜서 후손에게 물려주자."
+            }
+        ]
+    },
+    {
+        "lectureId": 18,
+        "title": "우리 명절과 세시풍속",
+        "panels": [
+            {
+                "order": 1,
+                "character": "zenitsu",
+                "imageUrl": "/images/zenitsu_eat.png",
+                "description": "설날 떡국",
+                "dialogue": "설날엔 떡국이지! 근데 나 떡국 10그릇 먹으면 10살 더 먹는 거야?"
+            },
+            {
+                "order": 2,
+                "character": "inosuke",
+                "imageUrl": "/images/inosuke_play.png",
+                "description": "윷놀이",
+                "dialogue": "윷놀이 승부다! 도, 개... 모!! 모다!! 한 번 더!!"
+            },
+            {
+                "order": 3,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_kind.png",
+                "description": "추석 송편",
+                "dialogue": "추석엔 송편을 빚고 달님에게 소원을 빌어. 모두 행복하게 해달라고."
+            },
+            {
+                "order": 4,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_smile.png",
+                "description": "명절의 의미",
+                "dialogue": "가족들이 모여 정을 나누는 시간. 그게 바로 명절의 의미야."
+            }
+        ]
+    },
+    {
+        "lectureId": 19,
+        "title": "세계로 뻗어나가는 한국",
+        "panels": [
+            {
+                "order": 1,
+                "character": "zenitsu",
+                "imageUrl": "/images/zenitsu_dance.png",
+                "description": "K-Pop 열풍",
+                "dialogue": "BTS 형들 너무 멋있어! 전 세계가 춤추고 노래해! 나도 아이돌 할래!"
+            },
+            {
+                "order": 2,
+                "character": "inosuke",
+                "imageUrl": "/images/inosuke_tech.png",
+                "description": "IT 강국",
+                "dialogue": "인터넷 속도가 왜 이렇게 빨라? 한국은 미래에서 온 나라냐?"
+            },
+            {
+                "order": 3,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_global.png",
+                "description": "국제 사회의 역할",
+                "dialogue": "이제 도움 받는 나라에서 도움 주는 나라가 되었어. 책임감도 커졌지."
+            },
+            {
+                "order": 4,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_hope.png",
+                "description": "미래의 주역",
+                "dialogue": "세계 시민으로서 지구를 지키고 평화를 만드는 일, 우리가 주인공이야!"
+            }
+        ]
+    },
+    {
+        "lectureId": 20,
+        "title": "역사 마스터 도전!",
+        "panels": [
+            {
+                "order": 1,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_congrats.png",
+                "description": "완강 축하",
+                "dialogue": "고생했어! 고조선부터 현대까지, 긴 여행을 마쳤구나!"
+            },
+            {
+                "order": 2,
+                "character": "zenitsu",
+                "imageUrl": "/images/zenitsu_cry_happy.png",
+                "description": "감동",
+                "dialogue": "으아앙~ 너무 힘든 여정이었지만... 역사를 알고 나니 가슴이 벅차!"
+            },
+            {
+                "order": 3,
+                "character": "inosuke",
+                "imageUrl": "/images/inosuke_king.png",
+                "description": "자신감",
+                "dialogue": "이제 난 역사 왕이다! 어떤 퀴즈라도 덤벼라! 다 맞춰주마!"
+            },
+            {
+                "order": 4,
+                "character": "tanjiro",
+                "imageUrl": "/images/tanjiro_bow.png",
+                "description": "마지막 인사",
+                "dialogue": "역사를 잊은 민족에게 미래는 없어. 이 배움을 잊지 말고 훌륭한 사람이 되렴!"
+            }
+        ]
+    }
+]

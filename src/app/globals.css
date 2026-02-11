@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  
+  /* Shared Colors */
+  --primary-color: #3b82f6;
+  --secondary-color: #f59e0b;
+  --accent-color: #ef4444;
+
+  /* Theme: Prehistoric (Nature/Earth) */
+  --theme-prehistoric-bg: #8d6e63;
+  --theme-prehistoric-text: #ffffff;
+  --theme-prehistoric-accent: #a1887f;
+
+  /* Theme: Three Kingdoms (Iron/War) */
+  --theme-threekingdoms-bg: #b71c1c;
+  --theme-threekingdoms-text: #ffffff;
+  --theme-threekingdoms-accent: #d32f2f;
+
+  /* Theme: Unified Silla / Goryeo (Gold/Celadon) */
+  --theme-goryeo-bg: #00695c; /* Celadon Greenish */
+  --theme-goryeo-text: #ffffff;
+  --theme-goryeo-accent: #4db6ac;
+
+  /* Theme: Joseon (Confucian/Royal) */
+  --theme-joseon-bg: #1a237e; /* Royal Blue */
+  --theme-joseon-text: #ffffff;
+  --theme-joseon-accent: #fbc02d; /* Gold */
+
+  /* Theme: Modern (Taegeuk) */
+  --theme-modern-bg: #212121;
+  --theme-modern-text: #ffffff;
+  --theme-modern-accent: #b71c1c;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
