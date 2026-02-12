@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import clsx from 'clsx';
 import Analytics from '@/components/Analytics';
+import { Suspense } from 'react';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -19,7 +20,9 @@ export default function RootLayout({
     return (
         <html lang="ko">
             <body className={clsx(inter.className, "min-h-screen bg-gray-50")}>
-                <Analytics />
+                <Suspense fallback={null}>
+                    <Analytics />
+                </Suspense>
                 <main className="flex flex-col min-h-screen">
                     {children}
                 </main>
