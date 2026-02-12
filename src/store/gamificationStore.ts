@@ -1,56 +1,58 @@
 import { create } from 'zustand';
+import { persist } from 'zustand/middleware';
 
-type Rank = 'Commoner' | 'Scholar' | 'Official' | 'King';
-
-interface GamificationState {
-    progress: number; // 0 to 100
+interface GamificationStore {
+    exp: number;
+    rank: string;
+    completedLectures: number[];
+    isPremium: boolean;
     score: number;
-    rank: Rank;
-    completedLectures: number[]; // Array of lecture IDs
-
-    // Actions
-    completeLecture: (lectureId: number, scoreEarned: number) => void;
+    progress: number;
+    addExp: (amount: number) => void;
+    completeLecture: (lectureId: number, scoreEarned: number) => void; // Fixed signature to match usage
+    unlockPremium: () => void;
     resetProgress: () => void;
 }
 
-const calculateRank = (progress: number): Rank => {
-    if (progress >= 76) return 'King';
-    if (progress >= 51) return 'Official';
-    if (progress >= 26) return 'Scholar';
-    return 'Commoner';
-};
+export const useGamificationStore = create<GamificationStore>()(
+    persist(
+        (set, get) => ({
+            exp: 0,
+            score: 0,
+            progress: 0,
+            rank: '역사 평민',
+            completedLectures: [],
+            isPremium: false,
+            addExp: (amount) => {
+                const newExp = get().exp + amount;
+                let newRank = get().rank;
 
-export const useGamificationStore = create<GamificationState>((set) => ({
-    progress: 0,
-    score: 0,
-    rank: 'Commoner',
-    completedLectures: [],
+                if (newExp >= 1000) newRank = '역사 왕';
+                else if (newExp >= 500) newRank = '역사 장군';
+                else if (newExp >= 200) newRank = '역사 박사';
+                else if (newExp >= 100) newRank = '역사 선비';
 
-    completeLecture: (lectureId, scoreEarned) => set((state) => {
-        if (state.completedLectures.includes(lectureId)) {
-            // Already completed, maybe just update score if higher? 
-            // For now, adding score only once per lecture completion logic should be handled in component
-            return state;
+                set({ exp: newExp, rank: newRank });
+            },
+            completeLecture: (lectureId, scoreEarned) => {
+                const { completedLectures, score } = get();
+                if (!completedLectures.includes(lectureId)) {
+                    const newCompleted = [...completedLectures, lectureId];
+                    const newProgress = Math.min(100, Math.round((newCompleted.length / 20) * 100));
+
+                    set({
+                        completedLectures: newCompleted,
+                        score: score + scoreEarned,
+                        progress: newProgress
+                    });
+                    get().addExp(50);
+                }
+            },
+            unlockPremium: () => set({ isPremium: true }),
+            resetProgress: () => set({ exp: 0, score: 0, progress: 0, rank: '역사 평민', completedLectures: [], isPremium: false }),
+        }),
+        {
+            name: 'history-adventure-storage',
         }
-
-        const newCompleted = [...state.completedLectures, lectureId];
-        // Simple progress calculation: (completed / total lectures) * 100
-        // Assuming 20 lectures total found in curriculum
-        const totalLectures = 20;
-        const newProgress = Math.min(100, Math.round((newCompleted.length / totalLectures) * 100));
-
-        return {
-            completedLectures: newCompleted,
-            score: state.score + scoreEarned,
-            progress: newProgress,
-            rank: calculateRank(newProgress),
-        };
-    }),
-
-    resetProgress: () => set({
-        progress: 0,
-        score: 0,
-        rank: 'Commoner',
-        completedLectures: [],
-    }),
-}));
+    )
+);

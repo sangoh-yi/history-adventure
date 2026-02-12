@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import clsx from 'clsx';
+import Analytics from '@/components/Analytics';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -18,6 +19,7 @@ export default function RootLayout({
     return (
         <html lang="ko">
             <body className={clsx(inter.className, "min-h-screen bg-gray-50")}>
+                <Analytics />
                 <main className="flex flex-col min-h-screen">
                     {children}
                 </main>
